@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+    
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   
+}
+
+.logo {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    color:crimson;
+    text-shadow: 0 0 25px crimson;
+    transform: scale(1.1);
+}
+
+span{
+    color:crimson;
+}
+
+.navbar a {
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    margin-left: 0 20px;
+    transition: 0.3s ease;
+    margin: 20px;
+    border-bottom: 3px solid crimson;
+}
+
+.navbar a:hover , 
+.navbar a.active {
+    color:crimson;
+    border-bottom: 3px solid white;
+}
+
+.contact {
+    padding: 10px 28px;
+    background-color: crimson;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact:hover {
+    background-color: crimson;
+    color: white;
+   box-shadow: 0 0 25px crimson;
+}
+
+.home {
+   width: 100%;
+   min-height: 100vh;
+   background: black;
+   display: flex;
+   align-items: center;
+   gap: 7em;
+   padding: 30px 12% 0;
+   font-size: 30px;
+   color: white;
+   margin-top: -10%;
+}
+
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 1em;
+    position: relative;
+    margin-top: -18%;
+    margin-left: 12%;
+    
+   
+   
+   
+    
+}
+
+.btn-1 {
+padding: 15px 28px;
+background-color: crimson;
+color: white;
+border: 2px solid transparent;
+border-radius: 8px;
+font-size: 18px;
+letter-spacing: 1px;
+font-weight: 600;
+transition: 0.3s ease;
+}
+
+.btn-1:hover {
+    background-color: crimson;
+    color: white;
+   box-shadow: 0 0 25px crimson;
+}
+
+.btn-2 {
+    padding: 15px 28px;
+    background-color: crimson;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    }
+
+    .btn-2:hover {
+        background-color: crimson;
+        color: white;
+       box-shadow: 0 0 25px crimson;
+    }
+    .img-box img {
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        margin-left: 50px;
+       
+    }
+
+    .img-box {
+        position:relative;
+        margin-left: 50%;
+        margin-top: -25%;
+      
+       
+    }
+    
+
+    .btn-3 {
+        padding: 15px 28px;
+        background-color: crimson;
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        }
+    
+        .btn-3:hover {
+            background-color: crimson;
+            color: white;
+           box-shadow: 0 0 25px crimson;
+        }
+
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+          }
+        
+          .column {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+          }
+        
+          .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+          }
+        
+          /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 800px) {
+            .column {
+              flex: 50%;
+              max-width: 50%;
+            }
+          }
